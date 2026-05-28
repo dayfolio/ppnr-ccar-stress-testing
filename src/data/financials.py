@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 
 # ─────────────────────────────────────────────────────────────
-# 2. BANK FINANCIALS HISTORY
+#  BANK FINANCIALS HISTORY
 #
 #  Stylised large US bank — balance sheet ~$2 trillion
 #  All figures in USD billions, quarterly
