@@ -2,9 +2,9 @@ import numpy as np
 import pandas as pd
 
 # ─────────────────────────────────────────────────────────────
-# 1. MACRO DRIVER HISTORY  (2008Q1 – 2021Q4, 56 quarters)
+#    MACRO DRIVER HISTORY  (2008Q1 – 2021Q4, 56 quarters)
 #
-#  Drivers calibrated to US macro history:
+#    Drivers calibrated to US macro history:
 #    fed_funds    : Federal Funds Rate (%)
 #    term_spread  : 10Y–2Y Treasury spread (%) — yield curve slope
 #    gdp_growth   : Real GDP growth YoY (%)
