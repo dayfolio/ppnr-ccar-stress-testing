@@ -4,7 +4,7 @@ import statsmodels.api as sm
 from statsmodels.stats.stattools import durbin_watson
 
 # ─────────────────────────────────────────────────────────────
-# 3. SATELLITE MODELS — OLS REGRESSION
+#    SATELLITE MODELS - OLS REGRESSION
 #    Each component modelled as a satellite (sub-model)
 #    consistent with Fed SR 15-18 PPNR guidance.
 #
