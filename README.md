@@ -191,14 +191,14 @@ ppnr-ccar-stress-testing/
 │
 └── ppnr_outputs/
 
+## Technical Stack
 
-
-
-
-
-
-
-
+Python
+NumPy
+Pandas
+Statsmodels
+SciPy
+Matplotlib
 
 
 
