@@ -1,7 +1,9 @@
 import numpy as np
 import pandas as pd
 import statsmodels.api as sm
-
+import os, json
+OUTPUT_DIR = "./ppnr_outputs"
+os.makedirs(OUTPUT_DIR, exist_ok=True)
 # ─────────────────────────────────────────────────────────────
 #    MODEL VALIDATION
 #    Out-of-sample backtest: train on 2008Q1–2017Q4 (40Q),

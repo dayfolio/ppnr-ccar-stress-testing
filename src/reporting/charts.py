@@ -1,3 +1,17 @@
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import matplotlib.gridspec as gridspec
+import statsmodels.api as sm
+from statsmodels.stats.stattools import durbin_watson
+from scipy import stats
+import os, json
+from scenarios.ccar_scenarios import CCAR_SCENARIOS
+
+
+
+OUTPUT_DIR = "./ppnr_outputs"
+os.makedirs(OUTPUT_DIR, exist_ok=True)
 def plot_all(macro_hist, fin_hist, forecasts, val_results, sens_df, satellite_models):
     plt.rcParams.update({
         "font.family": "DejaVu Sans",

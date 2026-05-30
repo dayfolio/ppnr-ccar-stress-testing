@@ -2,6 +2,10 @@ import numpy as np
 import pandas as pd
 import statsmodels.api as sm
 from statsmodels.stats.stattools import durbin_watson
+import os, json
+
+OUTPUT_DIR = "./ppnr_outputs"
+os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # ─────────────────────────────────────────────────────────────
 #    SATELLITE MODELS - OLS REGRESSION

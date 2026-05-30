@@ -1,5 +1,19 @@
 import numpy as np
 import pandas as pd
+import matplotlib.pyplot as plt
+import matplotlib.gridspec as gridspec
+import statsmodels.api as sm
+from statsmodels.stats.stattools import durbin_watson
+from scipy import stats
+import warnings, os, json
+
+warnings.filterwarnings("ignore")
+np.random.seed(42)
+
+OUTPUT_DIR = "./ppnr_outputs"
+os.makedirs(OUTPUT_DIR, exist_ok=True)
+
+
 
 # ─────────────────────────────────────────────────────────────
 #    MACRO DRIVER HISTORY  (2008Q1 – 2021Q4, 56 quarters)
