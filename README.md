@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains a Python-based implementation of a PPNR forecasting and CCAR scenario analysis framework built around a standard satellite-model architecture for earnings projection under stress.
+This repository contains a Python-based implementation of a PPNR forecasting and CCAR scenario analysis framework built around a standard satellite-model architecture for earnings projection under stress. 
 
 The analysis estimates the primary pre-provision revenue components: Net Interest Income (NII), Non-Interest Income (NIINC), and Non-Interest Expense (NIE) ; using macro-linked regression models calibrated on quarterly historical data, and projects earnings across a nine-quarter supervisory stress horizon under Baseline, Adverse, and Severely Adverse scenarios.
 
