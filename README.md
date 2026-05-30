@@ -161,6 +161,15 @@ Generated files are available under:
 
 ---
 
+## Technical Stack
+
+Python
+NumPy
+Pandas
+Statsmodels
+SciPy
+Matplotlib
+
 ## Repository Structure
 
 ```bash
@@ -190,16 +199,3 @@ ppnr-ccar-stress-testing/
 │       └── charts.py
 │
 └── ppnr_outputs/
-
-## Technical Stack
-
-Python
-NumPy
-Pandas
-Statsmodels
-SciPy
-Matplotlib
-
-
-
-
