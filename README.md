@@ -163,12 +163,12 @@ Generated files are available under:
 
 ## Technical Stack
 
-Python
-NumPy
-Pandas
-Statsmodels
-SciPy
-Matplotlib
+- Python
+- NumPy
+- Pandas
+- Statsmodels
+- SciPy
+- Matplotlib
 
 ## Repository Structure
 
