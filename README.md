@@ -198,14 +198,15 @@ Python • Pandas • NumPy • Statsmodels • SciPy • Matplotlib
 
 ## Applications
 
+* Model Risk Management
+* Risk Model Validation
 * CCAR / DFAST Analytics
 * PPNR Forecasting
 * Earnings Stress Testing
 * Balance Sheet Analytics
 * Scenario Analysis
-* Model Risk Management
 * Forecasting & Quantitative Analytics
-* Risk Model Validation
+
 
 
 
